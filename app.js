@@ -39,7 +39,7 @@ mongoose
 
 //If we want to use MongoClient:
 // const MongoClient = require('mongodb').MongoClient;
-// const uri = "mongodb+srv://Yueh:yoyo14@cluster0.xzyet.mongodb.net/practive-api?retryWrites=true&w=majority";
+// const uri = process.env.DB_CONNECTION;
 // const client = new MongoClient(uri, { useNewUrlParser: true });
 // client.connect(err => {
 //   const collection = client.db("test").collection("devices");
